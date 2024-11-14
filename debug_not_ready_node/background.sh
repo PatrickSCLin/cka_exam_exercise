@@ -1,7 +1,4 @@
-#!/bin/bash
-echo "Initializing environment..."
 while ! ssh node01 "systemctl status kubelet" &>/dev/null; do 
-    echo "Waiting for kubelet service to be available..."
     sleep 2
 done
 
