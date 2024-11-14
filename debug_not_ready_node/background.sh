@@ -1,3 +1,3 @@
 #!/bin/bash
-ssh -i node01 "systemctl stop kubelet"
-ssh -i node01 "systemctl disable kubelet" 
+ssh node01 "sudo -i systemctl stop kubelet"
+ssh node01 "sudo -i systemctl disable kubelet" 
