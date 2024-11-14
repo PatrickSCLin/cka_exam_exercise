@@ -12,5 +12,6 @@
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes-rapid"
   },
-  "background": "background.sh"
+  "background": "background.sh",
+  "foreground": "foreground.sh"
 }
