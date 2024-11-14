@@ -1,1 +1,1 @@
-# Fix a NotReady node in Kubernetes.
+# Troubleshoot a NotReady node in a Kubernetes cluster
