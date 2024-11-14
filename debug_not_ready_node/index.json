@@ -12,7 +12,5 @@
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes-rapid"
   },
-  "init": {
-    "courseData": "init.sh"
-  }
+  "background": "background.sh"
 }
