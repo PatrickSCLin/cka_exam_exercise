@@ -4,14 +4,14 @@
   "details": {
     "intro": {
       "title": "Fix NotReady node in a cluster",
-      "text": "intro.md"
+      "text": "intro.md",
+      "background": "background.sh",
+      "foreground": "foreground.sh"
     },
     "steps": [
       {
         "title": "Troubleshoot NotReady node",
         "text": "step1.md",
-        "background": "background.sh",
-        "foreground": "foreground.sh",
         "verify": "verify.sh"
       }
     ]
