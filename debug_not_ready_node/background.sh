@@ -1,3 +1,5 @@
+#!/bin/bash
+
 while ! ssh node01 "systemctl status kubelet" &>/dev/null; do 
     sleep 2
 done

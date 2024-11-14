@@ -1,14 +1,20 @@
 {
-  "title": "Debug Not Ready Node",
-  "description": "Learn how to troubleshoot a NotReady node in Kubernetes",
+  "title": "Fix Not Ready Node",
+  "description": "Learn how to fix a NotReady node in Kubernetes",
   "details": {
     "intro": {
-      "title": "Verify cluster status",
-      "text": "step1.md",
-      "background": "background.sh",
-      "foreground": "foreground.sh",
-      "verify": "verify.sh"
-    }
+      "title": "Fix Not Ready Node",
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Troubleshoot Not Ready Node",
+        "text": "step1.md",
+        "background": "background.sh",
+        "foreground": "foreground.sh",
+        "verify": "verify.sh"
+      }
+    ]
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes-rapid"
