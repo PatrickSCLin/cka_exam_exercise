@@ -1,14 +1,14 @@
 {
-  "title": "Fix Not Ready Node",
+  "title": "Fix NotReady node in a cluster",
   "description": "Learn how to fix a NotReady node in Kubernetes",
   "details": {
     "intro": {
-      "title": "Fix Not Ready Node",
+      "title": "Fix NotReady node in a cluster",
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Troubleshoot Not Ready Node",
+        "title": "Troubleshoot NotReady node",
         "text": "step1.md",
         "background": "background.sh",
         "foreground": "foreground.sh",
