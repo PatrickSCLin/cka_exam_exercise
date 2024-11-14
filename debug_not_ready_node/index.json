@@ -6,14 +6,6 @@
       {
         "title": "Verify cluster status",
         "text": "step1.md"
-      },
-      {
-        "title": "Investigate node issues",
-        "text": "step2.md"
-      },
-      {
-        "title": "Fix the NotReady node",
-        "text": "step3.md"
       }
     ]
   },
