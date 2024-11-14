@@ -1,0 +1,20 @@
+{
+  "title": "RBAC Permission Management",
+  "description": "Learn how to manage RBAC permissions in Kubernetes",
+  "details": {
+    "intro": {
+      "title": "RBAC Permission Management",
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Add a service account with RBAC permissions",
+        "text": "step1.md",
+        "verify": "verify.sh"
+      }
+    ]
+  },
+  "backend": {
+    "imageid": "kubernetes-kubeadm-2nodes-rapid"
+  }
+}
