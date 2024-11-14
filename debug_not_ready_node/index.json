@@ -5,13 +5,13 @@
     "steps": [
       {
         "title": "Verify cluster status",
-        "text": "step1.md"
+        "text": "step1.md",
+        "background": "background.sh",
+        "foreground": "foreground.sh"
       }
     ]
   },
   "backend": {
     "imageid": "kubernetes-kubeadm-2nodes-rapid"
-  },
-  "background": "background.sh",
-  "foreground": "foreground.sh"
+  }
 }
